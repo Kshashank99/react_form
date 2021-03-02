@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgb(251, 232, 189);
+  height: 100%;
+
+}
+h1{
+  font-family: 'Amatic SC', cursive; 
+  font-size: 40px;
+  width: 30%;
+  text-align: center;
+  border: none;
+  margin: 0 0;
+  padding-bottom: 5px;
+  
+}
+.inputbox{
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+  width: 30%;
+  background-color: #dc9f67;
+  border-radius: 20px;
+  block-size: auto;
+  padding: 20px 15px;
+  font-family: 'Amatic SC', cursive;  
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 0;
+  height: 62vh;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #bf5a17;
   color: white;
-}
+  border-radius: 50px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
 
-.App-link {
-  color: #61dafb;
 }
+.name,.list{  
+  border: none;
+  border-radius: 10px;
+  width: max-content;
+  align-items: center;
+  background-color: bisque;
+  font-size: 65px;
+  font-family: 'Amatic SC', cursive;
+  margin-bottom: 0;
+  padding: 0;
+font-weight: bolder;}
+.list{
+  font-size: 45px;
+  margin-top: 0;
+}
+/* .displayform{
+  padding: 0;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+  #spanname{
+    color: chocolate;
   }
-  to {
-    transform: rotate(360deg);
+  .spanlist{
+    color: coral;
   }
-}
+  form,label{
+    font-size: 30px;
+  }
